@@ -10,7 +10,7 @@ public class Main {
 	public int add(int a, int b) {
 		try {
 			if (a < 0 || b < 0) {
-				throw new IllegalArgumentException("Both numbers must be non-negative.");
+				throw new IllegalArgumentException("Both numbers must be non-negative. ### new added words ####");
 			}
 			if (Integer.MAX_VALUE - a < b) {
 				throw new ArithmeticException("Integer overflow when trying to add " + a + " + " + b);
